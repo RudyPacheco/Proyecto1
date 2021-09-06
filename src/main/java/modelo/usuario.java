@@ -17,6 +17,7 @@ public class usuario {
     private String usuario;
     private String Password ;
     private int categoria;
+    private boolean  bloqueado;
 
     public usuario() {
     }
@@ -49,6 +50,14 @@ public class usuario {
 
     public void setCategoria(int categoria) {
         this.categoria = categoria;
+    }
+
+    public boolean isBloqueado() {
+        return bloqueado;
+    }
+
+    public void setBloqueado(boolean bloqueado) {
+        this.bloqueado = bloqueado;
     }
     
     

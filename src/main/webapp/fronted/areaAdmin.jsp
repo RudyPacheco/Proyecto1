@@ -26,19 +26,19 @@
                     <div  class="mx-auto"></div>
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link text-white" aria-current="page" href="#">Inicio</a>
+                            <a class="nav-link text-white" aria-current="page" href="controladorArea?menu=inicio" target="myFrame">Inicio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="btn btn-outline-dark text-white" href="controladorArea?accion=reportes" target="myFrame">Reportes</a>
+                            <a class="btn btn-outline-dark text-white" href="controladorArea?menu=reportes" target="myFrame">Reportes</a>
                         </li>
                         <li class="nav-item">
-                            <a class="btn btn-outline-dark text-white" href="controladorArea?accion=creacion" target="myFrame">Creacion</a>
+                            <a class="btn btn-outline-dark text-white" href="controladorArea?menu=creacion&accion=limpiar" target="myFrame">Creacion</a>
                         </li>
                         <li class="nav-item">
-                            <a class="btn btn-outline-dark text-white" href="controladorArea?accion=controlUsuario" target="myFrame">Control de Usuarios</a>
+                            <a class="btn btn-outline-dark text-white" href="controladorArea?menu=controlUsuario&accion=listar" target="myFrame">Control de Usuarios</a>
                         </li>
                         <li class="nav-item">
-                            <a class="btn btn-outline-dark text-white" href="controladorArea?accion=cargaDatos" target="myFrame">Carga de datos</a>
+                            <a class="btn btn-outline-dark text-white" href="controladorArea?menu=cargaDatos" target="myFrame">Carga de datos</a>
                         </li>
                     </ul>
                     <div class="dropdown">
@@ -59,8 +59,8 @@
                 </div>
             </div>
         </nav>
-        <div class="m-4" style="height: 550px; ">
-            <iframe name="myFrame" style="height: 100%; width: 100%"></iframe>
+        <div class="m-4" style="height: 530px; ">
+            <iframe name="myFrame" style="height: 100%; width: 100%; border: none "></iframe>
         </div>
 
 

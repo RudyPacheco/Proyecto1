@@ -65,6 +65,7 @@ public class CargaDatos {
             //cargarDistancia(campos, errores, numLinea);
         } else if (encabezado.equalsIgnoreCase("ENSAMBLAR_MUEBLE")) {
             // cargarPasaporte(campos, errores, numLinea);
+            cargarENSAMBLE(campos, numLinea);
         } else if (encabezado.equalsIgnoreCase("CLIENTE")) {
             // System.out.println("se creo una renovacion");
             cargarCLIENTE(campos, numLinea);
@@ -94,6 +95,10 @@ public class CargaDatos {
     
     public void cargarCLIENTE(ArrayList<String> campos, int numeroLInea){
         validarDatos.validarCLIENTE(campos, numeroLInea);
+    }
+    
+    public void cargarENSAMBLE(ArrayList<String> campos, int numeroLInea){
+        validarDatos.validarEnsambleMueble(campos, numeroLInea);
     }
     
     public String[] listarLineasArchivos(String direccionArchivo) {

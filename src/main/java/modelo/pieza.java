@@ -13,7 +13,8 @@ package modelo;
 public class pieza {
     private String nombre_pieza;
     private double costo;
-
+    private int id;
+    
     public pieza() {
     }
 
@@ -36,6 +37,16 @@ public class pieza {
 
     public void setCosto(double costo) {
         this.costo = costo;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    
+    
+    public int getId() {
+        return id;
     }
     
     
