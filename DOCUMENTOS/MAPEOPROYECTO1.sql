@@ -135,8 +135,6 @@ CONSTRAINT PK_PIEZAD PRIMARY KEY(id_pieza)
 )
 
 
-
-
 CREATE USER 'system32'@'localhost' IDENTIFIED BY 'password';
 GRANT SELECT , INSERT
 
